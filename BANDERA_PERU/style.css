@@ -1,0 +1,16 @@
+.BANDERA_PERU{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    border: 1px solid #000;
+
+}
+.franja{
+    flex: 1px;
+}
+.rojo{
+    background-color: #D91023;
+}
+.blanco{
+    background-color: #FFFFFF;
+}

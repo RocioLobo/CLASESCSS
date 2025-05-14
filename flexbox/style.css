@@ -1,0 +1,17 @@
+.principal{
+    height: 600px;
+    background: brown;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.principal article{
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    margin: 20px;
+    border: 1px solid #000;
+    
+}
