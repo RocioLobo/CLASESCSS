@@ -14,15 +14,15 @@ body {
 .header {
     width: 100%;
     height: 10%;
-    background-color: #cfeabf;
-    border: 2px solid brown;
+    background-color: #17e2e9;
+    border: 2px solid rgb(1, 15, 7);
     margin-bottom: 10px;
 }
 
 .left, .center, .right {
     height: 70%;
-    background-color: #add8e6;
-    border: 2px solid green;
+    background-color: #ec1392;
+    border: 2px solid rgb(20, 3, 3);
     margin: 5px;
     flex-grow: 1;
 }
@@ -34,7 +34,7 @@ body {
 .footer {
     width: 100%;
     height: 10%;
-    background-color: #d8bebe;
-    border: 2px solid red;
+    background-color: #b4e9ec;
+    border: 2px solid rgb(2, 17, 7);
     margin-top: 10px;
 }
