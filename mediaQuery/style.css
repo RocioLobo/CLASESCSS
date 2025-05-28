@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --rojo:rgb(133, 24, 109);
+    --amarillo:rgb(0, 255, 213);
+    --verde:green;
+    
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+section{
+    height: 100vh;
+    background: yellow;
+    margin: 3px;
+    width: 33%;
+}
+.fondo_amarillo{
+    background: var(--amarillo);
+}
+.fondo_rojo{
+    background: var(--rojo);
+}
+.fondo_verde{
+    background: var(--verde);
+}
+@media(max-width:720px){
+    main{
+        flex-direction: column;
+    }
+    section{
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    main{
+        .fondo_rojo{
+            display: none;
+        }
+       
+    }
+   
+}
